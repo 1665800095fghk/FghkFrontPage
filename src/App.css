@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  backdrop-filter: blur(12px);
+  background-image: url(./images/lxq.png);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  height: 25vh;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+
+  position: all 0.5s;
+}
+.select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.select .icon {
+  margin: 0 5px;
+}
